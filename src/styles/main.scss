@@ -1,0 +1,22 @@
+@use 'element-plus/theme-chalk/src/dark/css-vars.scss' as *;
+
+@layer base {
+  [class*='el-'] {
+    box-sizing: revert;
+    margin: revert;
+    padding: revert;
+    font: revert;
+  }
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  color-scheme: dark;
+}

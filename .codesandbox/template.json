@@ -1,0 +1,10 @@
+{
+  "template": "node",
+  "container": {
+    "node": "22"
+  },
+  "infiniteLoopProtection": true,
+  "hardReloadOnChange": false,
+  "view": "browser",
+  "main": "src/pages/index.vue"
+}
